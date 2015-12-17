@@ -99,14 +99,12 @@ void draw()
           }
           for(int j=0; j<enemyCount; j++){
             if (enemys[j]!=null && enemys[j].isCollideWithBullet(i)) {
-                       if (enemys[j].isCollideWithBullet(i)) {
                              enemys[j].life--;
                              bullets[i]=null;
                              if (enemys[j].life == 0) {
                                flameMgr.addFlame(enemys[j].x, enemys[j].y);
                                enemys[j]=null;
         }
-      }
             }
         }
       }
