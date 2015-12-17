@@ -1,7 +1,7 @@
 class Bullet{
 	int x,y;
    PImage bulletImg=loadImage("img/shoot.png");
-   int speed = 5;
+   int speed = 8;
 	Bullet(int fighterX, int fighterY) {
         x = fighterX;
         y = fighterY;
